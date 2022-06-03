@@ -1,0 +1,60 @@
+.container-users{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    @media (min-width:630px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width:930px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (min-width:1400px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .users-card{
+        width: 300px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #1f2937;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: justify;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .users-photo{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+            background-image: url(../../assets/images/julienangular.jpeg);
+            background-size: cover;
+            background-position: center center;
+
+        }
+
+        .users-pseudo{
+            h3{
+                color: white;
+                font-weight: bold;
+                font-size: 150%;
+
+            }
+
+        }
+        .users-email{
+            p{
+                color: white;
+            }
+
+        }
+    }
+}

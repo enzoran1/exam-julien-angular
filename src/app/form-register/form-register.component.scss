@@ -1,0 +1,54 @@
+
+.container-form-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+
+    form{
+        width: 320px;
+        
+        background-color: #1f2937;
+        padding: 20px;
+        border-radius: 10px;
+
+        display: grid;
+        align-items: center;
+        align-content: center;
+        
+        @media (min-width:640px) {
+            width: 520px;
+            
+            
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: 1s;
+
+            &:hover{
+                color: #3f73e3;
+                transition: 1s;
+            }
+        
+        }
+        button{
+            margin-top: 15px;
+        }
+        
+
+        img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+      
+
+        
+        label{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+nav{
+    background-color: #1f2937;
+    border-radius: 0%;
+    
+
+    a{
+        color: white;
+        transition: 1s;
+
+        &:hover{
+            color: #3f73e3;
+            transition: 1s;
+        }
+    }
+}
